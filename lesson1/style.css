@@ -1,0 +1,20 @@
+h1{
+    background: lavender  ;
+    color: midnightblue;
+}
+a {
+    background: mediumslateblue  ;
+    color: ivory;
+}
+ul > li {
+    background: beige  ;
+}
+
+p{
+    color: darkgoldenrod;
+}
+
+image{
+    width: 400px;
+
+}
