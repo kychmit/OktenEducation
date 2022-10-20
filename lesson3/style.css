@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    /*background: chocolate;*/
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-evenly ;
+    height: 600px;
+}
+
+.target{
+    width: 280px;
+    height: 370px;
+    background: rgba(96, 85, 132, 0.44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: 1px  solid black;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background: #b7b3c6;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    border: 1px solid black;
+}
+.text {
+    margin-top: 10px;
+    color: black;
+}
+
+.button {
+    width: 150px;
+    margin-top: 50px;
+    color: black;
+    border: 2px gold;
+}
+
+.fa-sun {
+    color: gold;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin-top: 20px;
+}
