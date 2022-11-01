@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+  /*justify-content: space-between;*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    max-width: 1000px;
+    height: 900px;
+    /*background: silver;*/
+}
+.head{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height:15%;
+
+}
+.logo{
+    background: #795aa8;
+    width:20%;
+    height:100%;
+
+}
+.header{
+    background: darkslategray;
+    width:80%;
+    height:100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height:75%;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height:100%;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: indigo;
+}
+
+.box8{
+    background: chocolate;
+    width: 100%;
+    height: 10%;
+}
+.box9{
+    background: crimson;
+    width: 100%;
+    height: 10%;
+}
+.nav2{
+    width: 80%;
+    height:100%;
+    display: flex;
+   flex-wrap: wrap;
+}
+.box4{
+    background: lightskyblue;
+    width: 70%;
+    height: 35%;
+}
+.box5{
+    background: darkblue;
+    width: 30%;
+    height: 35%;
+}
+.box6{
+    background: plum;
+    width: 70%;
+    height: 65%;
+}
+.box7{
+    background: sandybrown;
+    width: 30%;
+    height: 65%;
+}
+.footer{
+    background: darkolivegreen;
+   width: 100%;
+    height: 10%;
+    display: flex;
+
+}
+.zzz {
+    display: none;
+    width: 100%;
+    height: 20%;
+flex-direction: row;
+
+}
+.box81{
+    background: darkblue ;
+    width: 50%;
+    height: 100%;
+}
+.box91{
+    background: teal;
+    width: 50%;
+    height: 100%;
+}
