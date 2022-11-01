@@ -47,5 +47,5 @@ console.log(typeof (o))
 
 let name = prompt ( 'Hello, what is your  First name ?');
 let last = prompt ( 'What is your Last name ?');
-let age = prompt ( 'How old are you ?');
+let age = +prompt (  'How old are you ?');
 console.log( name + ' ' +  last + ' ' +  age )
