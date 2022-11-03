@@ -1,6 +1,17 @@
 //1- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
-let cats = ['abyssinian', 126600, 'bengal', 'mainecoon', true, 'oriental', 100500, 'savannah', 606006, false]
+let cats = []
+cats[0] = 'abyssinian';
+cats[1] = 'bengal';
+cats[2] = 'mainecoon';
+cats[3] = 9999999
+cats[4] = '1277688';
+cats[5] = true;
+cats[6] = false;
+cats[7] = 'savannah';
+cats[8] = '666666';
+cats[9] = 'oriental';
+
 console.log(cats)
 console.log(cats[4])
 console.log(cats[9])
