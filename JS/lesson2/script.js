@@ -38,38 +38,16 @@ console.log(book3)
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
 
-let bookA = {
-    title: 'a Dance with Dragons',
-    pageCount: 1020,
-    genre: 'fantasy',
-    author: {
-        name: 'George Raymond Richard Martin',
-        age: 74
-    }
-}
-console.log(bookA)
 
-let bookB = {
-    title: 'Blood of Elves',
-    pageCount: 320,
-    genre: 'fantasy',
-    author: {
-        name: 'Andrzej Sapkowski',
-        age: 74
-    }
-}
-console.log(bookB)
+book1.author1 = [name = 'George Raymond Richard Martin', age = 74]
+console.log(book1.author1)
 
-let bookC = {
-    title: 'a Clockwork Orange',
-    pageCount: 170,
-    genre: ['satire', 'black comedy'],
-    author: {
-        name: 'Anthony Burgess',
-        age: 'died in 1993, aged 76'
-    }
-}
-console.log(bookC)
+book2.author2 = [name = 'Andrzej Sapkowski', age = 74]
+console.log(book2.author2)
+
+
+book3.author3 = [name = 'Anthony Burgess', age = 'died in 1993, aged 76']
+console.log(book3.author3)
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
