@@ -1,4 +1,4 @@
-// Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+//1- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
 let cats = ['abyssinian', 126600, 'bengal', 'mainecoon', true, 'oriental', 100500, 'savannah', 606006, false]
 console.log(cats)
@@ -13,7 +13,7 @@ console.log(cats[5])
 console.log(cats[6])
 console.log(cats[8])
 
-// - Створити 3 об'єкти які описують книги.Поля об'єкту : title ,pageCount, genre.
+// 2- Створити 3 об'єкти які описують книги.Поля об'єкту : title ,pageCount, genre.
 
 let book1 = {
     title: 'a Dance with Dragons',
@@ -36,7 +36,7 @@ let book3 = {
 }
 console.log(book3)
 
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
+// 3- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
 
 
 book1.author1 = [name = 'George Raymond Richard Martin', age = 74]
@@ -45,11 +45,10 @@ console.log(book1.author1)
 book2.author2 = [name = 'Andrzej Sapkowski', age = 74]
 console.log(book2.author2)
 
-
 book3.author3 = [name = 'Anthony Burgess', age = 'died in 1993, aged 76']
 console.log(book3.author3)
 
-// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+// 4- Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 
 let users = [
