@@ -104,3 +104,12 @@
 
 // let x = +prompt() || 'default'
 // console.log(x)
+
+let x = 'lol'
+// or let x = ''
+if (!!x === false){
+    console.log('default')
+}
+else{
+    console.log('HI')
+}
