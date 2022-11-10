@@ -1,8 +1,7 @@
 // - Є змінна х, якій ви надаєте довільне числове значення.
 //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
-// let x = +prompt('введіть число');
-//
+// let x = 0
 // if (x !== 0) {
 //     console.log('True');
 // } else {
@@ -46,34 +45,34 @@
 
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-// let week = prompt('pick a day')
+// let week = +prompt('pick a day')
 //
-//  switch ('1') {
-//      case '1':
+//  switch (week) {
+//      case 1:
 //          console.log("monday");
 //      break;
 //
-//      case '2':
+//      case 2:
 //         console.log('tuesday');
 //         break;
 //
-//      case '3':
+//      case 3:
 //          console.log('wednesday');
 //          break;
 //
-//      case '4':
+//      case 4:
 //          console.log('thursday');
 //          break;
 //
-//      case '5':
+//      case 5:
 //          console.log('friday');
 //          break;
 //
-//      case '6':
+//      case 6:
 //          console.log('saturday');
 //          break;
 //
-//      case '7':
+//      case 7:
 //          console.log('sunday');
 //          break;
 //
@@ -81,62 +80,27 @@
 //          console.log('error')
 // }
 
-//     - Користувач вводить або має два числа.
-//         Потрібно знайти та вивести максимальне число з тих двох .
-//         Також потрібно врахувати коли введені рівні числа.
+//     - Користувач вводить або має два числа. Потрібно знайти та вивести максимальне число з тих двох . Також потрібно врахувати коли введені рівні числа.
 
-let a = '10';
-let b = 10;
-
-if (a > b){
-    console.log(a)
-}
-else if (b > a) {
-    console.log(b)
-}
-else if (a === b) {
-    console.log('equal')
-}
-else {
-    console.log('error')
-}
+// let a = 10;
+// let b = 20;
+//
+// if (a > b){
+//     console.log(a)
+// }
+// else if (b > a) {
+//     console.log(b)
+// }
+// else if (a === b) {
+//     console.log('equal')
+// }
+// else {
+//     console.log('error')
+// }
 
 //
 //     - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 //         за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)
 
-// let day = +prompt('Enter the number');
-// if (day > 0 && day <=10) {
-//     console.log('first')
-// }
-// else if (day > 10 && day <=20) {
-//     console.log('second')
-// }
-// else if (day > 20 && day <=31) {
-//     console.log('third')
-// }
-// else {
-//     console.log('Update the page and try again')
-// }
-
-
-// let age = +prompt( 'how old are you ?')
-//
-// if (age < 18) {
-//     document.write('<h1>Cartoon</h1>');
-// } else if (age >= 18 && age <90) {
-//     document.write('<h1>porn</h1>')
-// }else {
-//     document.write('<h1>???</h1>')
-// }
-
-//  let color = prompt('enter color that you see')
-// let roadStatus = confirm('road is clear')
-// //or
-//    if (color === 'green' || roadStatus  ){
-//        console.log('you can go')
-//  } else if (color === 'yellow'){
-//        console.log('wait')
-//  } else if (color === 'red'){
-//        console.log('stop')
-//  }
+// let k = +prompt() || 'default'
+// console.log(k)
