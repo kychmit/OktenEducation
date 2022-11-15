@@ -30,10 +30,10 @@ console.log(j)
 let k = false
 console.log(k)
 
-let firstName = 'Kateryna '
+let firstname = 'Kateryna '
 let middlename = 'Ruslanivna '
 let lastname = 'Tymchuk'
-let persone = firstName + middlename + lastname
+let persone = firstname + middlename + lastname
 console.log( persone)
 
 let x = 100
@@ -45,7 +45,12 @@ console.log(typeof (m))
 let o = true
 console.log(typeof (o))
 
-let name = prompt ( 'Hello, what is your  First name ?');
-let last = prompt ( 'What is your Last name ?');
-let age = +prompt (  'How old are you ?');
-console.log( name + ' ' + last + ' ' + age )
+// let name = prompt ( 'Hello, what is your  First name ?');
+// let last = prompt ( 'What is your Last name ?');
+// let age = +prompt (  'How old are you ?');
+// console.log( name + ' ' + last + ' ' + age )
+
+let firstName = prompt ('What is your first name?');
+let lastName = prompt('What is your last name?');
+let age = +prompt ('What is your age?');
+console.log(firstName + ' ' + lastName + ' ' + age);
