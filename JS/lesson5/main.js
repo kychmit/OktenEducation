@@ -60,13 +60,34 @@
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
+// function pop(text){
+//     document.write(`<ul>
+//                       <li>${text}</li>
+//                       <li>${text}</li>
+//                       <li>${text}</li>
+//                    </ul> `)
+// }
+// pop('hello')
 
-
-
-// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-
+// // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+// function pop(text, number){
+//
+//     document.write(`<ul>`){
+//
+//         for (let i = 0; i > num; i++)
+//             }
+//             document.write(`</ul>`)
+// }
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+// let arr = [8,9,16,true,false,'hello']
+// function pop (array) {
+//     document.write(`<ul>`)
+//     for(const item of array)  {
+//         document.write(`<li> ${item} </li>`)
+//     }
+//     document.write(`</ul>`)
+// }
 
 // -------------------------------------------------------------------------------------------
 
@@ -90,6 +111,39 @@
 // -------------------------------------------------------------------------------------------
 
 // - створити функцію яка повертає найменьше число з масиву
-
+//  const arr = [1, 4, -6,0, 100000];
+// const minItem = function (array) {
+//     let min = array[0];
+//     for (const item of array){
+//         if (item < min){
+//             min = item
+//         }
+//     }
+//     return min ;
+// }
+// let  minItem1 = minItem(arr);
+// console.log(minItem1)
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+// const arr = [1,3,5];
+// function pop = array => {
+//     let sum = 0;
+//     for (const item of array){
+//         sum += item;
+//     }
+//     return sum;
+// }
+// let number = pop(array);
+// console.log(number);
+
+// const arr = [1,2,3];
+// const pop = (array) => {
+//     let sum = 0;
+//     for (const item of array) {
+//         sum += item;
+//     }
+// }
+// let number = pop(arr);
+// console.log(number)
+//
+
