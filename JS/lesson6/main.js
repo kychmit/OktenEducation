@@ -45,10 +45,16 @@
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
-
+//
 // let nums = [11,21,3];
-// console.log(nums);
-// console.log(nums.reverse());
+// // console.log(nums);
+// // console.log(nums.reverse());
+//
+// let nums = [11,21,3];
+// function sortNums(nums){
+//    return nums.reverse()
+// }
+// console.log(sortNums(nums))
 
 // - є масив-- відсортувати його за спаданням за monthDuration
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
