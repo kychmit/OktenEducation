@@ -16,7 +16,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                 userDiv.appendChild(userButton);
                 userButton.classList.add('userButton');
-                userButton.innerText = 'my page';
+                userButton.innerText = 'my details';
                 userButton.onclick = function () {
                     window.location = 'user_details.html?id=' + item.id;
                 }

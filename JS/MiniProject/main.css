@@ -17,8 +17,8 @@
     height: 45px;
     min-width: 45%;
     flex-direction: column;
-    align-items:center;
     text-align: center;
+    align-items:center;
     box-sizing: border-box;
     border-radius: 10px;
     background: lavender;
@@ -26,7 +26,7 @@
 }
 
 .userButton{
-height: 25px;
-background: lavenderblush;
+height: 20px;
+background: ivory;
     border-radius: 10px;
 }

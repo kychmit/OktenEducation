@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background: lavender;
+    gap: 10px;
+}
+.userDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: lavenderblush;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.userButton{
+    min-width: 90%;
+    background: rgba(170, 130, 250, 0.45);
+    border-radius: 10px;
+
+}
+.divContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    min-height: 150px;
+    column-gap: 10px;
+    gap: 20px;
+    background: lavender;
+}
+.buttonDetail{
+    display: flex;
+}
+.divDetail{
+    background: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
