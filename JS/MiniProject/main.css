@@ -6,10 +6,12 @@
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    background: pink;
+    background: #f1dcd9;
     justify-content: center;
     align-content: center;
     gap: 15px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .userDiv{
@@ -21,8 +23,8 @@
     align-items:center;
     box-sizing: border-box;
     border-radius: 10px;
-    background: lavender;
-    border: 1px solid black;
+    background: #dc8a99;
+    border: 1px solid #734653;
 }
 
 .userButton{

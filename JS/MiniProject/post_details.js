@@ -10,7 +10,7 @@ for (const element in parse) {
 let innerDivSecond = document.createElement('div');
 innerDiv.appendChild(innerDivSecond);
 innerDivSecond.classList.add('innerDivSecond');
-innerDivSecond.innerText = `${element} ${parse[element]}`
+innerDivSecond.innerText = `${element} ~ ${parse[element]}`
 }
  let url1 = parse.id + '/comments'
 fetch('https://jsonplaceholder.typicode.com/posts/' + url1)
